@@ -8,18 +8,111 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .banner1 {
+            margin-top: 10px;
+        }
+
+        .banner1 img {
+            border-right: 2px solid;
+        }
+
+        .mod-about {
+            background-color: whitesmoke;
+            height: 350px;
+            width: 100%;
+        }
+
+        .text {
+            color: white;
+            padding-top: 80px;
+        }
+
+        .text #m {
+            font-size: 40px;
+            font-weight: bold;
+        }
+
+        .text #h {
+            font-size: 30px;
+        }
+
+        button {
+            background-color: white;
+        }
+
+        .box1 {
+            margin-top: 50px;
+            position: relative;
+        }
+
+        .label {
+            text-align: center;
+            margin-bottom: 40px;
+            font-weight: bold;
+
+        }
+
+        .label span {
+            display: inline-block;
+            position: relative;
+        }
+
+        .sp {
+            border: 2px solid whitesmoke;
+            width: 250px;
+            height: 300px;
+        }
+
+        .sp img {
+            display: block;
+            margin: auto;
+        }
+
+        .sp p {
+            text-align: center;
+        }
+
+        .sp #te {
+            font-weight: bold;
+        }
+
+        .sp .c {
+            width: 50px;
+            height: 25px;
+            position: absolute;
+            background-color: #f54d56;
+            text-align: center;
+            top: 20px;
+        }
+
+        .fc {
+            font-weight: bold;
+        }
+
+        .footer {
+            margin-top: 50px;
+        }
+
+        .d {
+            position: absolute;
+            width: 200px;
+            height: 2px;
+            background-color: whitesmoke;
+        }
+        .logo img{background-color: gray;}
+    </style>
 </head>
 
 <body>
     <section class="mod-banner">
-        <div class="container co">
+        <div class="container">
             <div class="row">
-                <div class="col-sm-8 col-lg-10 log">
-                    <div class="banner1"><span><img src="img/logo.png">&nbsp;<div class="l"></div></span> &nbsp; Men &nbsp; Women &nbsp; About &nbsp; Blog
+                <div class="col-10">
+                    <div class="banner1"><img src="img/logo.png"> &nbsp; Men &nbsp; Women &nbsp; About &nbsp; Blog
                         &nbsp; Support</div>
                 </div>
-                <div class="col-sm-4 col-lg-2">
+                <div class="col-2">
                     <div><img src="img/shopingcart.png"></div>
                 </div>
             </div>
@@ -44,14 +137,14 @@
         <div class="row box1">
             <div class="col label">
                 <span>
-                    <div class="d" style="left:0px;transform: translateX(-100%) ;top:50%"></div>
+                    <div class="d" style="left:0px;transform: translateX(100%);top:50%"></div>
                     LATEST PRODUCTS
-                    <div class="d" style="right:0px;transform: translateX(100%);top:50%"></div>
+                    <div class="d" style="right:0px;transform: translateX(-100%);top:50%"></div>
                 </span>
             </div>
         </div>
 
-        <div class="row box2">
+        <div class="row">
             <div class="col">
                 <div class="sp sp1"><img src="img/sp.png"><br>
                     <p>SUNT OFFICIA SED DESERUNT</p>
@@ -75,13 +168,13 @@
         <div class="row box1">
             <div class="col label">
                 <span>
-                <div class="d" style="left: 0px;transform: translateX(-100%) ;top:50%"></div>
+                <div class="d" style="left: 0px;transform: translateX(100%) ;top:50%"></div>
                 POPULAR PRODUCTS
-                <div class="d" style="right: 0px;transform: translateX(100%) ;top:50%"></div>
+                <div class="d" style="right: 0px;transform: translateX(-100%) ;top:50%"></div>
                 </span>
             </div>
         </div>
-        <div class="row box2">
+        <div class="row">
             <div class="col">
                 <div class="sp sp1">
                     <div class="c">-86%</div><img src="img/sp.png"><br>
@@ -102,7 +195,7 @@
                 </div>
             </div>
         </div>
-        <div class="row box3">
+        <div class="row box1">
             <div class="col"><img src="img/Untitled-1.jpg"></div>
             <div class="col"><img src="img/Untitled-1.jpg"></div>
             <div class="col"><img src="img/Untitled-1.jpg"></div>
@@ -110,7 +203,7 @@
             <div class="col"><img src="img/Untitled-1.jpg"></div>
         </div>
     </div>
-    <div class="footer"><hr>
+    <div class="footer">
         <div class="container footer-container">
             <div class="row">
                 <div class="col">
@@ -155,14 +248,13 @@
             </div>
         </div>
     </div>
-    
-    <div class="f" >
-        <div class="container fo"><hr>
+    <div class="f">
+        <div class="container fo">
             <div class="row">
-                <div class="col-10">&copy;2014 lashoopa.com - All Rights Reserved - Find More Free Templates at Pixelhint.com
+                <div class="col-10">2014 lashoopa.com - All Rights Reserved - Find More Free Templates at Pixelhint.com
                 </div>
-                <div class="col-2 logo"><img src="img/Visa.png">&nbsp;<img src="img/Mastercard.png">&nbsp;<img
-                        src="img/Express.png">&nbsp;<img src="img/Discover.png">
+                <div class="col-2 logo"><img src="img/logovisa.png">&nbsp;<img src="img/logoMastercard.png">&nbsp;<img
+                        src="img/logoamericanexpress.png">&nbsp;<img src="img/logodiscover.png">
                 </div>
             </div>
         </div>
