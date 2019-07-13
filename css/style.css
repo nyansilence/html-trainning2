@@ -1,0 +1,135 @@
+.co .row {
+    margin-top: 30px; 
+}
+.log{height: 40px;}
+.banner1 span{
+    position: relative;
+    display: inline-block;
+}
+.l{
+    position: absolute;
+    width: 2px;
+    height: 50px;
+    background-color: whitesmoke;
+    right:0px;
+    transform: translateX(100%);
+    bottom: -20px;
+}
+.mod-about {
+    background-color:#edecec;
+    height: 500px;
+    width: 100%;
+    
+}
+
+.text {
+    color: white;
+    padding-top: 100px;
+}
+
+.text #m {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.text #h {
+    font-size: 30px;
+}
+
+button {
+    background-color: white; width: 150px;height: 40px;color: #eaeff2;
+}
+
+.box1 {
+    margin-top: 50px;
+    position: relative;
+    
+}
+.box3{
+    margin-top: 50px;
+}
+.box3 img{
+    display: block;
+    margin: auto;
+}
+@media only screen and ( min-width:800px){
+    .box3 img{
+        margin-top: 50px;
+    }
+}
+.box3 .col {
+    margin-top:50px;
+}
+.label {
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: bold;
+
+}
+
+.label span {
+    display: inline-block;
+    position: relative;
+}
+
+.sp {
+    border: 2px solid whitesmoke;
+    width: 250px;
+    height: 300px;
+}
+
+.sp img {
+    display: block;
+    margin: auto;
+}
+
+.sp p {
+    text-align: center;
+}
+
+.sp #te {
+    font-weight: bold;
+}
+
+.sp .c {
+    width: 50px;
+    height: 25px;
+    position: absolute;
+    background-color: #f54d56;
+    text-align: center;
+    top: 20px;
+}
+
+.fc {
+    font-weight: bold;
+}
+
+.footer {
+    margin-top: 50px;
+}
+
+.d {
+    position: absolute;
+    width: 200px;
+    height: 2px;
+    background-color: whitesmoke;
+}
+.logo img{
+    background-color: gray;
+}
+
+.sp {
+    margin: auto;
+}
+
+@media only screen and (min-width:800px){
+    .sp{
+        margin:default;
+        margin-top: 50px;
+    }
+}
+.box2 .col {
+    margin-top: 50px;
+}
+
+
